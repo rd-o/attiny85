@@ -1,8 +1,10 @@
+# Prepare ISP programmer
+
 Connect attiny85 to socket and usbtiny v2.0
 
 Set jumper in USB PWR
 
-### Check connection with lsusb
+## Check connection with lsusb
 ~~~
 $ lsusb
 ...
@@ -10,8 +12,9 @@ Bus 001 Device 007: ID 1781:0c9f Multiple Vendors USBtiny
 ...
 ~~~
 
+![usbtiny](<isp.jpg>)
 
-### Check ISP programmer
+## Check ISP programmer
 
 ~~~
 $ sudo avrdude -c usbtiny -p t85
